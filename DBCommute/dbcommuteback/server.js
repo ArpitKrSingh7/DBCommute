@@ -16,10 +16,11 @@ const mysql = require('mysql');
 
 // Create MySQL connection
 const con = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "1234",  // Your MySQL password
-  database: "dbms"
+  host: "gateway01.ap-southeast-1.prod.aws.tidbcloud.com",
+  port: 4000,
+  user: "41fMftfS55ugGZz.root",
+  password: "Dck8hJQBtOYaSqbw",  // Your MySQL password
+  database: "DBCommute"
 });
 
 // Connect ONCE here
