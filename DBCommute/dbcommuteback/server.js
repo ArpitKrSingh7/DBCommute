@@ -20,7 +20,8 @@ const con = mysql.createConnection({
   port: 4000,
   user: "41fMftfS55ugGZz.root",
   password: "Dck8hJQBtOYaSqbw",  // Your MySQL password
-  database: "DBCommute"
+  database: "DBCommute",
+  ssl: {} 
 });
 
 // Connect ONCE here
